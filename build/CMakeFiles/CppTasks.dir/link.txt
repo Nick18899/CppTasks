@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCppTasks.a CMakeFiles/CppTasks.dir/vector.cpp.o
+/usr/bin/ranlib libCppTasks.a

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/CppTasksTests.dir/vectorTests.cpp.o -o CppTasksTests  ../lib/libgtest_maind.a ../libCppTasks.a ../lib/libgtestd.a -lpthread 
