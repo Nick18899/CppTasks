@@ -1,5 +1,6 @@
 #include <initializer_list> // for std::initializer_list
 #include <stdexcept>        // for std::out_of_range
+#include <gtest/gtest.h>
 template <class T>
 class vector
 {

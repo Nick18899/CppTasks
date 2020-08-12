@@ -21,11 +21,11 @@
 	TotalVirtualMemory="32767"
 	TotalPhysicalMemory="15993"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2766.1"
+	ProcessorClockFrequency="3392.36"
 	>
 	<Testing>
-		<StartDateTime>Aug 12 20:11 MSK</StartDateTime>
-		<StartTestTime>1597252296</StartTestTime>
+		<StartDateTime>Aug 12 21:53 MSK</StartDateTime>
+		<StartTestTime>1597258425</StartTestTime>
 		<TestList>
 			<Test>./test/CppTasksTests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00262629</Value>
+					<Value>0.00300436</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -51,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNkMFOwzAMhu95Ch/XQ5vxABwQQzsgwdSNU1WhUEyI1thV4g7x9qRkmjokpP4nJ/7k37/rkciRBW8crQr4COxBf7JH/e2imMBRHOldYBuM94nU98NwMPEYtWW2PQpGmZcxdNpO1es0suo61dxe1EJ99ruBicl+5zqOTrBSTXlRC9ue30yf+0gnF5g8UmJRynH4A89nnrATDof0jqqB+uUJftXOG9UGPVOUYAS30483XQqc+Kznx0U8rNbgY7Fol8yCsJi+UMuyCppQvvMXXV/yvwtCMFRd+6RAu7v9/mEzHSCzlfoBaUKlVw==</Value>
+					<Value encoding="base64" compression="gzip">eJyNkMFqwzAMhu9+Ch2bg53kAXYYdPQw6EbanUIYrqsFg20VW+lef/FcSjoY5D9J1od+6++mEGwYwWsbNhV8RfJQnybrzvXImLhO0dQj0egwtzKiQ51QtqptVLOYFDBXn3mXMkb0T3cN0N2MWshMMbrVabKMSvTyrgF2jk7alTmGq40UPIaZRZbT5Q+83HlFwxSPc59ED93HHn41LAdqi55C4qgZd/nFaxMp80Vvr6t42DTgU7XqL4UFJtauEutuZdRRnuk7PCb5X4IQdVCPPvNB78+Hw8s2B1BYJX4AEoOg4g==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Aug 12 20:11 MSK</EndDateTime>
-		<EndTestTime>1597252296</EndTestTime>
+		<EndDateTime>Aug 12 21:53 MSK</EndDateTime>
+		<EndTestTime>1597258425</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -10,15 +10,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../googletest/googletest/include"
-  "../googletest/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/yistarostin/Programming/CppTasks/build/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "/home/yistarostin/Programming/CppTasks/build/CMakeFiles/CppTasks.dir/DependInfo.cmake"
-  "/home/yistarostin/Programming/CppTasks/build/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
