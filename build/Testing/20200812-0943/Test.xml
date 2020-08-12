@@ -21,11 +21,11 @@
 	TotalVirtualMemory="32767"
 	TotalPhysicalMemory="15993"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3392.36"
+	ProcessorClockFrequency="2230.79"
 	>
 	<Testing>
-		<StartDateTime>Aug 12 21:53 MSK</StartDateTime>
-		<StartTestTime>1597258425</StartTestTime>
+		<StartDateTime>Aug 12 22:28 MSK</StartDateTime>
+		<StartTestTime>1597260508</StartTestTime>
 		<TestList>
 			<Test>./test/CppTasksTests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00300436</Value>
+					<Value>0.439115</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -55,8 +55,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Aug 12 21:53 MSK</EndDateTime>
-		<EndTestTime>1597258425</EndTestTime>
+		<EndDateTime>Aug 12 22:28 MSK</EndDateTime>
+		<EndTestTime>1597260508</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -1,10 +1,10 @@
-Start testing: Aug 12 21:53 MSK
+Start testing: Aug 12 22:28 MSK
 ----------------------------------------------------------
 1/1 Testing: CppTasksTests
 1/1 Test: CppTasksTests
 Command: "/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests"
 Directory: /home/yistarostin/Programming/CppTasks/build/test
-"CppTasksTests" start time: Aug 12 21:53 MSK
+"CppTasksTests" start time: Aug 12 22:28 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /build/gtest/src/googletest-release-1.10.0/googletest/src/gtest_main.cc
@@ -19,11 +19,11 @@ Running main() from /build/gtest/src/googletest-release-1.10.0/googletest/src/gt
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.44 sec
 ----------------------------------------------------------
 Test Passed.
-"CppTasksTests" end time: Aug 12 21:53 MSK
+"CppTasksTests" end time: Aug 12 22:28 MSK
 "CppTasksTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 12 21:53 MSK
+End testing: Aug 12 22:28 MSK
