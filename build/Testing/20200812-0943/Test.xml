@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20200812-0943-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.18.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="arch-desktop"
+	OSRelease="5.7.12-arch1-1"
+	OSVersion="#1 SMP PREEMPT Fri, 31 Jul 2020 17:38:22 +0000"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="42"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="32767"
+	TotalPhysicalMemory="15993"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1630.71"
+	>
+	<Testing>
+		<StartDateTime>Aug 12 12:43 MSK</StartDateTime>
+		<StartTestTime>1597225421</StartTestTime>
+		<TestList>
+			<Test>./test/CppTasksTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>CppTasksTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/CppTasksTests</FullName>
+			<FullCommandLine>/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.187651</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkMFOwzAMhu95Ch/XQ5vxABwQQzsgwdSNU1WhUEyI1thV4g7x9qRkmjokpP4nJ/7k37/rkciRBW8crQr4COxBf7JH/e2imMBRHOldYBuM94nU98NwMPEYtWW2PQpGmZcxdNpO1es0suo61dxe1EJ99ruBicl+5zqOTrBSTXlRC9ue30yf+0gnF5g8UmJRynH4A89nnrATDof0jqqB+uUJftXOG9UGPVOUYAS30483XQqc+Kznx0U8rNbgY7Fol8yCsJi+UMuyCppQvvMXXV/yvwtCMFRd+6RAu7v9/mEzHSCzlfoBaUKlVw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 12 12:43 MSK</EndDateTime>
+		<EndTestTime>1597225422</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

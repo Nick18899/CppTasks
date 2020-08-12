@@ -1,5 +1,6 @@
+#include <initializer_list> // for std::initializer_list
+#include <stdexcept>        // for std::out_of_range
 template <typename T>
-
 class vector
 {
     size_t _size;
@@ -25,6 +26,15 @@ class vector
             _array[i] = other[i];
         }
     }
+    vector(const std::initializer_list<T>& list)
+    :   vector(list.size())
+    {
+        size_t index = 0;
+        for (auto& el : list)
+        {
+            _array[i++] = el;
+        }
+    }
     ~vector()
     {
         delete[] _array;
@@ -43,6 +53,22 @@ class vector
             }
         }
         return *this;
+    }
+    const T& at(size_t index) const
+    {
+        return index < _size ? _array[i] : std::out_of_range("element with this index does not exist");
+    }
+    T& at(size_t index)
+    {
+        return index < _size ? _array[i] : std::out_of_range("element with this index does not exist");
+    }
+    const T& operator [](size_t index) const
+    {
+        return _array[i];
+    }
+    T& operator [](size_t index)
+    {
+        return _array[i];
     }
     const size_t size() const
     {
