@@ -329,4 +329,12 @@ acxx_demangle.h
 /home/yistarostin/Programming/CppTasks/test/vectorTests.cpp
 gtest/gtest.h
 -
+../vector.hpp
+/home/yistarostin/Programming/CppTasks/vector.hpp
+
+/home/yistarostin/Programming/CppTasks/vector.hpp
+initializer_list
+-
+stdexcept
+-
 

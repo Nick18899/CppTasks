@@ -22,4 +22,5 @@ test/CMakeFiles/CppTasksTests.dir/vectorTests.cpp.o: ../googletest/googletest/in
 test/CMakeFiles/CppTasksTests.dir/vectorTests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-string.h
 test/CMakeFiles/CppTasksTests.dir/vectorTests.cpp.o: ../googletest/googletest/include/gtest/internal/gtest-type-util.h
 test/CMakeFiles/CppTasksTests.dir/vectorTests.cpp.o: ../test/vectorTests.cpp
+test/CMakeFiles/CppTasksTests.dir/vectorTests.cpp.o: ../vector.hpp
 

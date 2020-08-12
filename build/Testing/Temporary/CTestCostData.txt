@@ -1,2 +1,3 @@
-CppTasksTests 5 0.0399466
+CppTasksTests 7 0.0292516
 ---
+CppTasksTests

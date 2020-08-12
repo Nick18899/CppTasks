@@ -1,10 +1,10 @@
-Start testing: Aug 12 12:43 MSK
+Start testing: Aug 12 17:26 MSK
 ----------------------------------------------------------
 1/1 Testing: CppTasksTests
 1/1 Test: CppTasksTests
 Command: "/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests"
 Directory: /home/yistarostin/Programming/CppTasks/build/test
-"CppTasksTests" start time: Aug 12 12:43 MSK
+"CppTasksTests" start time: Aug 12 17:26 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/yistarostin/Programming/CppTasks/googletest/googletest/src/gtest_main.cc
@@ -12,18 +12,26 @@ Running main() from /home/yistarostin/Programming/CppTasks/googletest/googletest
 [----------] Global test environment set-up.
 [----------] 1 test from vectorTests
 [ RUN      ] vectorTests.DemonstrateGTestmacros
-[       OK ] vectorTests.DemonstrateGTestmacros (0 ms)
+/home/yistarostin/Programming/CppTasks/test/vectorTests.cpp:7: Failure
+Value of: vec[0] == 3 && vec[1] == 2 && vec[2] == 3 && vec[3] == 4
+  Actual: false
+Expected: true
+[  FAILED  ] vectorTests.DemonstrateGTestmacros (0 ms)
 [----------] 1 test from vectorTests (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] vectorTests.DemonstrateGTestmacros
+
+ 1 FAILED TEST
 <end of output>
-Test time =   0.19 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
-Test Passed.
-"CppTasksTests" end time: Aug 12 12:43 MSK
+Test Failed.
+"CppTasksTests" end time: Aug 12 17:26 MSK
 "CppTasksTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 12 12:43 MSK
+End testing: Aug 12 17:26 MSK
