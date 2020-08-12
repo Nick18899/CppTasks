@@ -21,28 +21,22 @@
 	TotalVirtualMemory="32767"
 	TotalPhysicalMemory="15993"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2324.71"
+	ProcessorClockFrequency="2766.1"
 	>
 	<Testing>
-		<StartDateTime>Aug 12 17:26 MSK</StartDateTime>
-		<StartTestTime>1597242398</StartTestTime>
+		<StartDateTime>Aug 12 20:11 MSK</StartDateTime>
+		<StartTestTime>1597252296</StartTestTime>
 		<TestList>
 			<Test>./test/CppTasksTests</Test>
 		</TestList>
-		<Test Status="failed">
+		<Test Status="passed">
 			<Name>CppTasksTests</Name>
 			<Path>./test</Path>
 			<FullName>./test/CppTasksTests</FullName>
 			<FullCommandLine>/home/yistarostin/Programming/CppTasks/build/test/CppTasksTests</FullCommandLine>
 			<Results>
-				<NamedMeasurement type="text/string" name="Exit Code">
-					<Value>Failed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Exit Value">
-					<Value>1</Value>
-				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00306002</Value>
+					<Value>0.00262629</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -57,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyVUdtqwkAQfd+vmCdRqImXQiHgg9QLhVJE076EUNZ1TEP3Evai7d93k6gkhUI6T3N2zp7Dmdk6KXOZgaC57A/gqJWA8EMJDL9zY6lWxuYy3GiVaSqEZ4aPRRFT82nCTKmMo0Vjm63RLMzK7r2UDBgjyexWKWwvfmMoObXfpTcutxiQZHirFNZc7Smv5yhPuVZSoPRctENX/CI3NU/IrNKxx4YksH19garS5iBYoFDSWE0trssXQZkPTDrmr+I25VhRRA8RrGjOnUbyRrlDUMeo9ExGKcxmMIVer4LjCk6ucNKeTit4TwDmzDrKIzhSbpAsvwrvh4cIrHbog8Fq/vS8XHQLBv0RCDPotLSaC1ZZygek21EsUj08qLNsn/yvU4OmMmj7+ECb+W5XBxpVXBO0Y9YKd8D9efAAe+TqHP13E4R4ncuHeLmLyQ9vs/te====</Value>
+					<Value encoding="base64" compression="gzip">eJyNkMFOwzAMhu95Ch/XQ5vxABwQQzsgwdSNU1WhUEyI1thV4g7x9qRkmjokpP4nJ/7k37/rkciRBW8crQr4COxBf7JH/e2imMBRHOldYBuM94nU98NwMPEYtWW2PQpGmZcxdNpO1es0suo61dxe1EJ99ruBicl+5zqOTrBSTXlRC9ue30yf+0gnF5g8UmJRynH4A89nnrATDof0jqqB+uUJftXOG9UGPVOUYAS30483XQqc+Kznx0U8rNbgY7Fol8yCsJi+UMuyCppQvvMXXV/yvwtCMFRd+6RAu7v9/mEzHSCzlfoBaUKlVw==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Aug 12 17:26 MSK</EndDateTime>
-		<EndTestTime>1597242398</EndTestTime>
+		<EndDateTime>Aug 12 20:11 MSK</EndDateTime>
+		<EndTestTime>1597252296</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

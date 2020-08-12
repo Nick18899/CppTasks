@@ -8,13 +8,13 @@ class vector
     T* _array;
 public:
     vector()
-    :   _size(0), _capacity(0)
+    :   _size(0), _capacity(4)
     {
         _array = new T[_capacity];
     }
     
     vector(size_t n)
-    :   _size(n), _capacity(2 * n)
+    :   _size(n), _capacity(4 * n)
     {
         _array = new T[_capacity];
     }
@@ -72,6 +72,22 @@ public:
     {
         return _array[index];
     }
+    T& front()
+    {
+        return _array[0];
+    }
+    const T& front() const
+    {
+        return _array[0];
+    }
+    T& back()
+    {
+        return _array[_size - 1];
+    }
+    const T& back() const
+    {
+        return _array[_size - 1];
+    }
     const size_t size() const
     {
         return _size;
@@ -104,9 +120,9 @@ public:
 
     void pop_back()
     {
-        if (_size-- * 2 <= _capacity)
+        if (_size-- * 4 >= _capacity)
         {
-           _capacity /= 2;
+           _capacity = 2;
             T* _temp = new T[_capacity];
             for (size_t i = 0; i < _size; ++i)
             {
